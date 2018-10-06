@@ -1,0 +1,11 @@
+Setting up Windows to flash.
+1) Install Ubuntu for windows.
+2) Open Bash as administrator
+3) run the command "sudo apt-get install build-essential libnewlib-arm-none-eabi"
+4) run "curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -"
+5) run "sudo apt-get install -y nodejs"
+6) run "npm install --global xpm"
+7) run "sudo xpm install --force --global @gnu-mcu-eclipse/arm-none-eabi-gcc"
+8) Download and install DfuSe Demo from http://samedisk.com/en/download.php?id=5
+9) Download and install Dfu Util from https://sourceforge.net/projects/dfu-util/
+
